@@ -1,0 +1,269 @@
+[{
+    "id": "yewys",
+    "name": "常用业务元素",
+    "children": [
+     {
+        "title": "申请人/使用人",
+        "key" : "sqr",
+        "type" : "label",
+        "children" : [{
+            "title": "input",
+            "key" : "input"
+            }]
+        }, {
+        "title": "供应商",
+        "key" : "gys",
+        "type" : "input",
+        "children" : [{
+            "title": "input",
+            "key" : "input"
+        }]
+        }, {
+            "title": "客户",
+            "key" : "kh",
+            "type" : "input",
+            "children" : [{
+                "title": "input",
+                "key" : "input"
+            }]
+        }, {
+        "title": "日期时间",
+        "key" : "rqsj",
+        "type" : "date",
+        "children" : [{
+            "title": "input",
+            "key" : "input"
+            }]
+        }, {
+            "title": "时间区间",
+            "key" : "sjqj",
+            "type" : "input",
+            "children" : [{
+                "title": "input",
+                "key" : "input"
+            }]
+        }, {
+            "title": "地区选择",
+            "key" : "dqxz",
+            "type" : "address",
+            "children" : [{
+                "title": "input",
+                "key" : "input"
+            }]
+        }, {
+            "title": "附件",
+            "key" : "fj",
+            "type" : "input",
+            "children" : [{
+                "title": "input",
+                "key" : "input"
+            }]
+        }
+    ]
+}, 
+{
+    "id": "gsys",
+    "name": "格式元素",
+    "children": [
+        {
+        "title": "单行文本",
+        "key" : "dhwb",
+        "type" : "input",
+        "children" : [{
+            "title": "input",
+            "key" : "input"
+            }]
+        }, {
+            "title": "多行文本",
+            "key" : "ddhwb",
+            "type" : "textarea",
+            "children" : [{
+                "title": "input",
+                "key" : "input"
+            }]
+        }, {
+            "title": "多功能编辑框",
+            "key" : "dgnbjk",
+            "type" : "textarea",
+            "children" : [{
+                "title": "input",
+                "key" : "input"
+            }]
+        }, {
+            "title": "下拉框",
+            "key" : "xlk",
+            "type" : "select",
+            "children" : [{
+                "title": "input",
+                "key" : "input"
+                }]
+            }, {
+                "title": "单选框",
+                "key" : "dxk",
+                "type" : "radio",
+                "children" : [{
+                    "title": "input",
+                    "key" : "input"
+                }]
+            }, {
+                "title": "多选框",
+                "key" : "ddxk",
+                "type" : "checkbox",
+                "children" : [{
+                    "title": "input",
+                    "key" : "input"
+                }]
+            }, {
+                "title": "子表",
+                "key" : "zb",
+                "type" : "input",
+                "children" : [{
+                    "title": "input",
+                    "key" : "input"
+                }]
+            }, {
+                "title": "树状结构",
+                "key" : "szjg",
+                "type" : "input",
+                "children" : [{
+                    "title": "input",
+                    "key" : "input"
+                }]
+            }, {
+                "title": "显示文件",
+                "key" : "xswj",
+                "type" : "input",
+                "children" : [{
+                    "title": "input",
+                    "key" : "input"
+                }]
+            }, {
+                "title": "附件",
+                "key" : "fj",
+                "type" : "input",
+                "children" : [{
+                    "title": "input",
+                    "key" : "input"
+                }]
+            }, {
+                "title": "图片",
+                "key" : "tp",
+                "type" : "input",
+                "children" : [{
+                    "title": "input",
+                    "key" : "input"
+                }]
+            }, {
+                "title": "音频",
+                "key" : "yp",
+                "type" : "input",
+                "children" : [{
+                    "title": "input",
+                    "key" : "input"
+                }]
+            }, {
+                "title": "视频",
+                "key" : "sb",
+                "type" : "input",
+                "children" : [{
+                    "title": "input",
+                    "key" : "input"
+                }]
+            }
+    ]
+},
+{
+    "id": "xsys",
+    "name": "显示元素",
+    "children": [{
+        "title": "显示文本",
+        "key" : "xswb",
+        "type" : "label",
+        "children" : [{
+            "title": "input",
+            "key" : "input"
+        }]
+    }, {
+        "title": "横线",
+        "key" : "hx",
+        "type" : "input",
+        "children" : [{
+            "title": "input",
+            "key" : "input"
+        }]
+    }, {
+        "title": "竖线",
+        "key" : "sx",
+        "type" : "input",
+        "children" : [{
+            "title": "input",
+            "key" : "input"
+        }]
+    }, {
+        "title": "按钮",
+        "key" : "an",
+        "type" : "input",
+        "children" : [{
+            "title": "input",
+            "key" : "input"
+        }]
+    }, {
+        "title": "图片",
+        "key" : "tp1",
+        "type" : "input",
+        "children" : [{
+            "title": "input",
+            "key" : "input"
+        }]
+    }
+    ]
+},
+{
+    "id": "cwywys",
+    "name": "财务业务元素",
+    "children": []
+},
+{
+    "id": "rlzyywys",
+    "name": "人力资源业务元素",
+    "children": []
+},
+{
+    "id": "xsywys",
+    "name": "销售业务元素",
+    "children": []
+},
+{
+    "id": "gylywys",
+    "name": "供应链业务元素",
+    "children": []
+},
+{
+    "id": "xzywys",
+    "name": "行政业务元素",
+    "children": []
+},
+{
+    "id": "cgywys",
+    "name": "采购业务元素",
+    "children": []
+},
+{
+    "id": "xxglywys",
+    "name": "信息管理业务元素",
+    "children": []
+}, {
+    "id": "zcglyw",
+    "name": "资产管理业务元素",
+    "children": []
+},
+{
+    "id": "scglywys",
+    "name": "市场管理业务元素",
+    "children": []
+},
+{
+    "id": "gwywys",
+    "name": "公文业务元素",
+    "children": []
+}]

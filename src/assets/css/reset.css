@@ -1,0 +1,153 @@
+/**
+* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+* http://cssreset.com
+*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, button, input, select, textarea {
+    font: 16px/1.5 'Microsoft YaHei', 'Helvetica', 'PingFangSC-Regular', tahoma, arial, \5b8b\4f53;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+  }
+  
+  strong, b {
+    font-weight: normal;
+  }
+  
+  address, cite, dfn, em, var, i {
+    font-style: normal;
+  }
+  
+  code, kbd, pre, samp {
+    font-family: couriernew, courier, monospace;
+  }
+  
+  small {
+    font-size: 14px;
+  }
+  
+  ul, ol, li{
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  sup {
+    vertical-align: text-top;
+  }
+  
+  sub {
+    vertical-align: text-bottom;
+  }
+  
+  legend {
+    color: #000;
+  }
+  
+  fieldset, img {
+    border: 0;
+  }
+  
+  input, button, select, textarea {
+    outline: none
+  }
+  
+  button, input, select, textarea {
+    font-size: 100%;
+    -webkit-appearance: none;
+    border: 0
+  }
+  button{
+    background: transparent;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  blockquote, q {
+    quotes: none;
+  }
+  
+  div {
+    box-sizing: border-box;
+  }
+  
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: none;
+  }
+  
+  input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    /*-webkit-box-shadow: 0 0 0 100px #354E84 inset!important;*/
+    /*background: rgba(250, 255, 189,0) none;*/
+    -webkit-box-shadow: 0 0 0 1000px #123174 inset;
+    border: 0 !important;
+    border-radius: 1 !important;
+    /*border-radius: 2px;*/
+    /*color: rgb(255,255,255)!important;*/
+  }
+  
+  ::-webkit-scrollbar-track-piece{
+    opacity: 1!important;
+    background-color: rgba(0, 0, 0, 1)!important;
+  }
+  
+  input::-webkit-search-cancel-button {
+    display: none;
+  }
+  
+  :focus {
+    outline: none;
+  }
+  
+  body:before {
+    content: ' ';
+    position: fixed;
+    display: -webkit-box;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -99;
+  }
+  
+  /*滚动条样式设置*/
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 1px;
+  }
+  ::-webkit-scrollbar-track {
+    background: red;
+  }
+  ::-webkit-scrollbar-track-piece {
+    background-color: rgb(255, 255, 255);
+    -webkit-border-radius: 1px;
+  }
+  
+  ::-webkit-scrollbar-thumb:vertical {
+    height: 1px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 1px;
+  }
+  
+  ::-webkit-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: rgba(247, 247, 247, 1);
+    -webkit-border-radius: 2px;
+  }
+  
+  
